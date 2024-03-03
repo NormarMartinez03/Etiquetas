@@ -1,0 +1,61 @@
+/* style2.css */
+
+body {
+  background-color: #eee; /* Fondo gris claro */
+  color: #333; /* Color de texto */
+  font-family: Arial, sans-serif; /* Tipo de fuente */
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+}
+
+header {
+  background-color: #e1e5e9; /* Fondo blanco para el encabezado */
+  color: #0c0c0c; /* Color de texto negro */
+  padding: 10px; /* Relleno para el encabezado */
+  text-align: center; /* Centrar el texto del encabezado */
+}
+
+table {
+  width: 80%; /* Ancho de la tabla */
+  margin: 20px auto; /* Centrar la tabla */
+  border-collapse: collapse; /* Colapso de bordes de la tabla */
+}
+
+th, td {
+  border: 2px solid #555; /* Borde de celdas */
+  padding: 10px; /* Relleno de celdas */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0066cc; /* Color de encabezados */
+}
+
+a {
+  color: #cc0000; /* Color de enlaces */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayar al pasar el mouse sobre el enlace */
+}
+
+/* Estilos específicos para el segundo bloque de tabla con enlaces */
+table:nth-child(2) {
+  text-align: center; /* Centrar el contenido de la segunda tabla */
+  margin-top: 20px; /* Margen superior */
+}
+
+table:nth-child(2) th {
+  padding: 10px 20px; /* Relleno para las celdas de la segunda tabla */
+}
+
+table:nth-child(2) a {
+  padding: 8px 16px; /* Relleno para los enlaces de la segunda tabla */
+  margin: 0 10px; /* Margen entre los enlaces */
+  text-decoration: none; /* Eliminar subrayado de los enlaces */
+  color: #fff; /* Color de texto blanco para los enlaces */
+  background-color: #747070; /* Fondo rojo para los enlaces */
+  border-radius: 5px; /* Bordes redondeados para los enlaces */
+}
+
+table:nth-child(2) a:hover {
+  background-color: #d00d0db7; /* Cambio de color al pasar el mouse sobre los enlaces */
+}
